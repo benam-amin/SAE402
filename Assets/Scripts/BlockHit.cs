@@ -11,11 +11,15 @@ public class BlockHit : MonoBehaviour
     public PlatformEffector2D platformEffector2D;
     public bool isHidden = false;
 
+    // private void Start() {
+    // Debug.Log("Start called");
+    // }
+
     private void Awake() {
+        Debug.Log("isHidden: " + isHidden);
         sr.enabled = !isHidden;  // Désactiver le SpriteRenderer si isHidden est vrai
         platformEffector2D.enabled = isHidden; // Activer PlatformEffector2D si isHidden est vrai
         animator.ResetTrigger("IsHit"); // Réinitialiser le trigger
-        Debug.Log("isHidden: " + isHidden);
     }
 
 

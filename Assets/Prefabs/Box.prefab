@@ -173,10 +173,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4073466150543401308}
   numberHit: 2
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 6722714434073853403, guid: 3a535e80d5f7cab42aa945a6a87c152f, type: 3}
   sr: {fileID: 2170141989109286643}
   platformEffector2D: {fileID: 6728471840191914700}
-  isHidden: 0
+  isHidden: 1
 --- !u!251 &6728471840191914700
 PlatformEffector2D:
   m_ObjectHideFlags: 0
