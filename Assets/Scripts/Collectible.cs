@@ -6,11 +6,11 @@ public class Collectible : MonoBehaviour
     public CollectibleVariable data;
     public GameObject collectedEffect;
     public SpriteRenderer spriteRenderer;
-
     public UnityEvent onPickUp;
 
     private Vector3 startAngle;
     private float finalAngle;
+    public bool canBeDestroyedOnContact = true;
     private float rotationOffset = 15f;
     private float oscillationSpeed = 1.5f;
 
@@ -29,13 +29,13 @@ public class Collectible : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && canBeDestroyedOnContact)
         {
             Picked();
         }
     }
 
-    private void Picked()
+    public void Picked()
     {
         GameObject effect = Instantiate(collectedEffect, transform.position, transform.rotation);
         // Destroy effect after its animation ends playing
