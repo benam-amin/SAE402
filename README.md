@@ -99,100 +99,100 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
 - Pause / relance : Touche échap
 
 ## Liste des choses impératives à faire. **Vous devez toutes les faire**
-- [x] Compléter le niveau du projet en permettant au joueur de passer au niveau suivant
-    - Il y a déjà des trophées (prefab) qui servent de fin de niveau, il faudra juste les compléter 
-- [ ] Compléter l'écran d'accueil (écran qui permet de commencer le jeu)
-    - L'écran doit contenir :
-        - Le logo de l'université
-            - Plusieurs versions sont déjà présentes dans le projet dans le dossier `Assets/Imports/Logos` à vous de choisir
-        - Le nom du jeu
-          - Vous devez en trouver un
-          - Le logo peut être fait sous Photoshop ou autre puis intégré sous forme d'image dans Unity ou tout simplement du texte
-        - De quoi commencer le jeu au premier niveau
-            - Il y a déjà un bouton, il faut ajouter la fonction pour charger le premier niveau grâce au `GameObject` CurrentSceneManager
-        - Un bouton pour permettre de quitter le jeu
-        - Les développeurs / développeuses du jeu, le nom de la formation et l'année scolaire courante
-    - Pour rappel, ici il faudra utiliser un Canvas
-- [ ] Ajouter un nouveau niveau (décors, ennemis et mécaniques compris)
-    - Vous pouvez utiliser le thème que vous souhaitez pour la décoration. Vous pouvez donc importer de nouvelles tilemaps ou utiliser celles déjà présentes dans le projet
-    - Vous pouvez récupérer des mécanismes/ennemis déjà présents dans le premier niveau
-     - Il est **impératif** d'avoir dans vos niveaux supplémentaires la prefab "CurrentSceneManager"
-    - **Il doit être possible de terminer ce nouveau niveau**. Quand le niveau termine (au choix) :
-        - Afficher les crédits
-        - Retourner au menu principal
-    - Vous pourrez trouver des inspirations ici :
-        - [https://pixelfrog-assets.itch.io/pixel-adventure-1](https://pixelfrog-assets.itch.io/pixel-adventure-1)
-        - [https://pixelfrog-assets.itch.io/pixel-adventure-2](https://pixelfrog-assets.itch.io/pixel-adventure-2)
-- [ ] Ajouter un écran des crédits [(voir contenu attendu)](#contenu-de-lécran-des-crédits)
-- [ ] Afficher dans la splash page de jeu le logo de l'université (voir menu `Project Settings > Player > Logo`)
-    - [Didacticiel en anglais sur la personnalisation de la splash page](https://www.youtube.com/watch?v=BY40xbA5qYQ)
-- [ ] Compléter le menu Pause
-    - Il est déjà possible de mettre le jeu en pause en appuyant sur la touche "Echap"
-    - La gestion du menu pause est faite grâce à un ScriptableObject (`Assets/ScriptableObjects/Events/Events/OnTogglePauseEvent`)
-    - Libre à vous d'ajouter d'autres options dans le menu de pause comme relancer le niveau ou encore retourner au menu principal via un bouton
-    - Le menu Pause doit **au minimum** contenir un bouton pour relancer le jeu et revenir au menu principal
+- [ ]Compléter le niveau du projet en permettant au joueur de passer au niveau suivant
+    - [ ]Il y a déjà des trophées (prefab) qui servent de fin de niveau, il faudra juste les compléter
+- [ ]Compléter l'écran d'accueil (écran qui permet de commencer le jeu)
+    - [ ]L'écran doit contenir :
+        - [ ]Le logo de l'université
+            - [ ]Plusieurs versions sont déjà présentes dans le projet dans le dossier `Assets/Imports/Logos` à vous de choisir
+        - [ ]Le nom du jeu
+          - [ ]Vous devez en trouver un
+          - [ ]Le logo peut être fait sous Photoshop ou autre puis intégré sous forme d'image dans Unity ou tout simplement du texte
+        - [ ]De quoi commencer le jeu au premier niveau
+            - [ ]Il y a déjà un bouton, il faut ajouter la fonction pour charger le premier niveau grâce au `GameObject` CurrentSceneManager
+        - [ ]Un bouton pour permettre de quitter le jeu
+        - [ ]Les développeurs / développeuses du jeu, le nom de la formation et l'année scolaire courante
+    - [ ]Pour rappel, ici il faudra utiliser un Canvas
+- [ ]Ajouter un nouveau niveau (décors, ennemis et mécaniques compris)
+    - [ ]Vous pouvez utiliser le thème que vous souhaitez pour la décoration. Vous pouvez donc importer de nouvelles tilemaps ou utiliser celles déjà présentes dans le projet
+    - [ ]Vous pouvez récupérer des mécanismes/ennemis déjà présents dans le premier niveau
+     - [ ]Il est **impératif** d'avoir dans vos niveaux supplémentaires la prefab "CurrentSceneManager"
+    - [ ]**Il doit être possible de terminer ce nouveau niveau**. Quand le niveau termine (au choix) :
+        - [ ]Afficher les crédits
+        - [ ]Retourner au menu principal
+    - [ ]Vous pourrez trouver des inspirations ici :
+        - [ ][https://pixelfrog-assets.itch.io/pixel-adventure-1](https://pixelfrog-assets.itch.io/pixel-adventure-1)
+        - [ ][https://pixelfrog-assets.itch.io/pixel-adventure-2](https://pixelfrog-assets.itch.io/pixel-adventure-2)
+- [ ]Ajouter un écran des crédits [(voir contenu attendu)](#contenu-de-lécran-des-crédits)
+- [ ]Afficher dans la splash page de jeu le logo de l'université (voir menu `Project Settings > Player > Logo`)
+    - [ ][Didacticiel en anglais sur la personnalisation de la splash page](https://www.youtube.com/watch?v=BY40xbA5qYQ)
+- [ ]Compléter le menu Pause
+    - [ ]Il est déjà possible de mettre le jeu en pause en appuyant sur la touche "Echap"
+    - [ ]La gestion du menu pause est faite grâce à un ScriptableObject (`Assets/ScriptableObjects/Events/Events/OnTogglePauseEvent`)
+    - [ ]Libre à vous d'ajouter d'autres options dans le menu de pause comme relancer le niveau ou encore retourner au menu principal via un bouton
+    - [ ]Le menu Pause doit **au minimum** contenir un bouton pour relancer le jeu et revenir au menu principal
     > Le menu Pause contient du texte. Toutefois, il est possible qu'il ne s'affiche pas. C'est lié à des packages Unity manquants. Pour ce faire, allez dans le menu d'Unity : `Window > TextMeshPro > Import TMP Essential Ressources.` Ceci va afficher une fenêtre, cliquez sur le bouton "Import" en bas à droite.
-- [ ] Afficher un indicateur du nombre de points de vie
-    - Optionnel : possibilité de proposer le regain de vie
-    - Note : Vous pouvez également décider qu'au moindre dégât le joueur meurt immédiatement
+- [ ]Afficher un indicateur du nombre de points de vie
+    - [ ]Optionnel : possibilité de proposer le regain de vie
+    - [ ]Note : Vous pouvez également décider qu'au moindre dégât le joueur meurt immédiatement
 > La gestion des points de vie du joueur est gérée via un ScriptableObject. Qui gère à la fois le nombre de points de vie actuels et maximum. A noter que la valeur des points de vie actuels est "clampée", autrement dit, elle ne peut pas être inférieure à 0 ni supérieure au nombre de points de vie maximum définis. Si vous le souhaitez, vous pouvez supprimer ce comportement.
 
-- Terminer la gestion de la mort du personnage. A l'heure actuelle, il y a :
-    - un évènement (OnPlayerDeath) sur le GameObject "Player" (utilisable depuis l'onglet `Assets` en Play Mode)
-    - une animation de mort du personnage (testable avec la touche N du clavier)
-    - "Suppression" du Rigidbody2D associé (Passage de "Simulated" à "Non simulated"). Le personnage traverse les murs à la mort
-    - La mort instanée si le joueur est écrasé par un RockHead ou que ses points de vie atteignent 0
-    - **A vous de faire le reste** (liste non exhaustive)
-      - Bloquer les mouvements du joueur
-      - Afficher un écran de "Fin de partie"
-      - ...
-- Rajouter un ennemi parmi ceux proposés
-    - Dans l'archive que vous avez récupéré au début des cours, il y a un dossier `ressources/unity/sprites/platformer/Enemies`
-        - N'oubliez pas qu'il y déjà des scripts décrivant des comportants appliquables à un ennemi : Patrouille (EnemyPatrol), Tir (EnemyShooting + ObjectPooling), Santé (Enemy)... à vous de les réutiliser, au besoin, pour votre nouvel ennemi
-        - Voir [gestion des ennemis](#gestion-des-ennemis) pour en savoir plus
-- Remplacer les carrés bleus qui font office de checkpoints par un sprite plus approprié
-    - Il y a un sprite dédié dans le projet (`Assets/Imports/Scripts/Misc/Checkpoint*`)
-- Ajouter un état "désactivé" quand un bloc n'est plus interagissable
-  - **Vous devez faire vous-même le sprite**
+- [ ]Terminer la gestion de la mort du personnage. A l'heure actuelle, il y a :
+    - [ ]un évènement (OnPlayerDeath) sur le GameObject "Player" (utilisable depuis l'onglet `Assets` en Play Mode)
+    - [ ]une animation de mort du personnage (testable avec la touche N du clavier)
+    - [ ]"Suppression" du Rigidbody2D associé (Passage de "Simulated" à "Non simulated"). Le personnage traverse les murs à la mort
+    - [ ]La mort instanée si le joueur est écrasé par un RockHead ou que ses points de vie atteignent 0
+    - [ ]**A vous de faire le reste** (liste non exhaustive)
+      - [ ]Bloquer les mouvements du joueur
+      - [ ]Afficher un écran de "Fin de partie"
+      - [ ]...
+- [ ]Rajouter un ennemi parmi ceux proposés
+    - [ ]Dans l'archive que vous avez récupéré au début des cours, il y a un dossier `ressources/unity/sprites/platformer/Enemies`
+        - [ ]N'oubliez pas qu'il y déjà des scripts décrivant des comportants appliquables à un ennemi : Patrouille (EnemyPatrol), Tir (EnemyShooting + ObjectPooling), Santé (Enemy)... à vous de les réutiliser, au besoin, pour votre nouvel ennemi
+        - [ ]Voir [gestion des ennemis](#gestion-des-ennemis) pour en savoir plus
+- [ ]Remplacer les carrés bleus qui font office de checkpoints par un sprite plus approprié
+    - [ ]Il y a un sprite dédié dans le projet (`Assets/Imports/Scripts/Misc/Checkpoint*`)
+- [ ]Ajouter un état "désactivé" quand un bloc n'est plus interagissable
+  - [ ]**Vous devez faire vous-même le sprite**
 
 
 ## <span id="list-extras">Liste des choses à faire au choix. Vous devez au moins en faire une (**deux si vous êtes plus de trois dans votre groupe**)</span>
-- Ajouter une musique. Vous pourrez en trouver sur ces sites :
+- [ ]Ajouter une musique. Vous pourrez en trouver sur ces sites :
     - http://dig.ccmixter.org/games
     - https://www.playonloop.com/royalty-free-music/video-game-chiptune-music/
     - https://github.com/OpenSourceMusic
     - https://opengameart.org/
     - Rappel : la musique est gérée au niveau de la scène _Preload
-- Des bruitages lors d'actions (sauts, tir...)
+- [ ]Des bruitages lors d'actions (sauts, tir...)
     - Vous avez un exemple de fonctionnement de bruitage dans la Prefab "Apple"
     - Pourquoi pas ne pas réaliser vous-même ces bruitages ?
-- Ajouter une attaque "impact" alors qu'on appuie sur la flèche du bas durant un saut
+- [ ]Ajouter une attaque "impact" alors qu'on appuie sur la flèche du bas durant un saut
     - Il faudra utiliser la méthode [Physics2D.OverlapAreaAll() (ou Physics2D.OverlapCircleAll())](https://docs.unity3d.com/ScriptReference/Physics2D.OverlapAreaAll.html) pour savoir qui a été touché dans une zone spécifique
     - Le joueur descend déjà plus vite si on appuie sur la flèche bas ou la touche S durant un saut
-- Animer les checkpoints (Les carrés bleus dans le niveau)
+- [ ]Animer les checkpoints (Les carrés bleus dans le niveau)
     - Il y a un sprite dédié dans le projet (`Assets/Imports/Scripts/Misc/Checkpoint*`)
-- **Créer un** prop de votre choix (ennemi, bonus, panneau...) et l'intégrer dans le jeu
+- [ ]**Créer un** prop de votre choix (ennemi, bonus, panneau...) et l'intégrer dans le jeu
     - Pas besoin que votre props colle avec la direction artistique (DA) du jeu
     - Ce n'est pas du grand art qui est attendu. Si nous n'êtes pas à l'aise avec le dessin, un simple panneau est suffisant
     - Vous pouvez utiliser le logiciel gratuit [LibreSprite](https://libresprite.github.io/#!/) pour réaliser votre création en pixelart. Sinon, il y a Photoshop
-- Expliquer comment le jeu fonctionne (les contrôles, mécaniques...)
+- [ ]Expliquer comment le jeu fonctionne (les contrôles, mécaniques...)
     - Vous pouvez réaliser cette tâche via un niveau de didacticiel, un menu dédié ou tout simplement du texte affiché directement dans la scène
         - Il y a un sprite avec les différents contrôles et boutons dans les Assets que vous avez téléchargé. Si le sprite ne vous convient pas, vous pouvez également en télécharger un sur le site [thoseawesomeguys](https://thoseawesomeguys.com/prompts/), néanmoins les images sont séparées, il est préférable de tout fusionner en un sprite. Il est possible de générer des sprites avec un site comme [images-sprite-sheet-generator](https://codeshack.io/images-sprite-sheet-generator/)
-- Proposer une traduction de votre jeu en anglais (ou une autre langue)
+- [ ]Proposer une traduction de votre jeu en anglais (ou une autre langue)
     - Il existe le package gratuit "Localization" qui vous permet de gérer ceci. Voici un tutorial (en anglais) expliquant comment intégrer et utiliser le package.
         - Voir le tutoriel sur le [package Localization](https://www.youtube.com/watch?v=qcXuvd7qSxg)
     - Pensez bien à sauvegarder les préférences de l'utilisateur grâce au `PlayerPrefs`
-- Ajouter une secousse de la caméra pour les actions suivantes :
+- [ ]Ajouter une secousse de la caméra pour les actions suivantes :
     - Mort du joueur
     - Blessure du joueur
 
     Cette fonctionnalité est déjà présente notamment dans le fichier `Assets/Scripts/RockHead.cs` avec le ScriptableObject évènementiel de type `CameraShakeEventChannel`.
-- Téléporter le joueur au dernier endroit où il a eu pied quand il tombe au lieu de le téléporter au dernier checkpoint le cas échéant
-- Afficher, lorsqu'un niveau est terminé, le temps mis par le joueur pour terminer le niveau et d'autres statistiques (nombre d'ennemis éliminés, nombre de sauts...)
-- Mettre en place un piège parmi ceux présents dans le dossier `sprites/platformer/Traps`
+- [ ]Téléporter le joueur au dernier endroit où il a eu pied quand il tombe au lieu de le téléporter au dernier checkpoint le cas échéant
+- [ ]Afficher, lorsqu'un niveau est terminé, le temps mis par le joueur pour terminer le niveau et d'autres statistiques (nombre d'ennemis éliminés, nombre de sauts...)
+- [ ]Mettre en place un piège parmi ceux présents dans le dossier `sprites/platformer/Traps`
     - A vous de gérer le comportement : Est-ce que ça bouge ? Quels dégâts sont infligés ?
     - Note : Il y a un script dans le dossier `Assets/Scripts/Utils` nommé `Trap` qui gère de façon simple les dégâts sur le joueur
-- Proposer au joueur de choisir un personnage. Ce choix peut être fait :
+- [ ]Proposer au joueur de choisir un personnage. Ce choix peut être fait :
     - Au début du jeu, juste avant de commencer un niveau
     - Après chaque mort du joueur
     - Pour éviter de faire les animations pour chaque personnage Unity propose un système dédié: https://www.youtube.com/watch?v=6mNak-mQZpc - anglais
@@ -201,12 +201,12 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
     - Note 3 : Si vous souhaitez faire référence à un SpriteLibraryAsset dans vos scripts, il faudra **impérativement** importer la bibliothèque `Unity​Engine.​U2D.​Animation` au début de vos scripts via la ligne `using Unity​Engine.​U2D.​Animation;`
 
     > Libre à vous de proposer des caractérisques différentes entre chaque personnage
-- Générer des particules quand le personnage change de direction durant une course (Il existe des didactiels en ligne pour vous aider)
-- Mettre en place des plateformes qui se déplacent automatiquement sur un chemin balisé via des points de cheminement ("waypoint" en anglais). Il y a déjà un script `Scripts/Utils/WaypointManager.cs` pour vous aider à mettre en place ce système
-- Indiquer visuellement l'état de santé du joueur (couleur, vitesse d'animation...)
-- Ajouter des blocs qui peuvent être cassé quand le joueur les touche avec la tête (en sautant donc). Certains peuvent être cachés et même contenir des objets
-    - Si le temps nous le permet, nous le ferons en cours ensemble
-- Cacher les tuiles qui cachent les zones secrètes au lieu d'utiliser les masques déjà présents
+- [ ]Générer des particules quand le personnage change de direction durant une course (Il existe des didactiels en ligne pour vous aider)
+- [ ]Mettre en place des plateformes qui se déplacent automatiquement sur un chemin balisé via des points de cheminement ("waypoint" en anglais). Il y a déjà un script `Scripts/Utils/WaypointManager.cs` pour vous aider à mettre en place ce système
+- [ ]Indiquer visuellement l'état de santé du joueur (couleur, vitesse d'animation...)
+- [ ]Ajouter des blocs qui peuvent être cassé quand le joueur les touche avec la tête (en sautant donc). Certains peuvent être cachés et même contenir des objets
+    - [ ]Si le temps nous le permet, nous le ferons en cours ensemble
+- [ ]Cacher les tuiles qui cachent les zones secrètes au lieu d'utiliser les masques déjà présents
 
 > N'oubliez pas : **c'est votre jeu**. N'hésitez pas à ajouter d'autres fonctionnalités, les possibilités sont infinies : score, chronomètre, boss, objets à récupérer... Faites preuve d'imagination, ce projet peut être un très beau moyen de valoriser vos CV. Ne vous limitez pas parce que c'est un devoir. Tentez des choses, l'école est l'occasion de tenter des trucs en sécurité mais surtout apprendre de nouvelles choses.
 
