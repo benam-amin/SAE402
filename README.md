@@ -99,9 +99,9 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
 - Pause / relance : Touche échap
 
 ## Liste des choses impératives à faire. **Vous devez toutes les faire**
-- Compléter le niveau du projet en permettant au joueur de passer au niveau suivant
-    - Il y a déjà des trophées (prefab) qui servent de fin de niveau, il faudra juste les compléter
-- Compléter l'écran d'accueil (écran qui permet de commencer le jeu)
+- [x] Compléter le niveau du projet en permettant au joueur de passer au niveau suivant
+    - Il y a déjà des trophées (prefab) qui servent de fin de niveau, il faudra juste les compléter 
+- [ ] Compléter l'écran d'accueil (écran qui permet de commencer le jeu)
     - L'écran doit contenir :
         - Le logo de l'université
             - Plusieurs versions sont déjà présentes dans le projet dans le dossier `Assets/Imports/Logos` à vous de choisir
@@ -113,7 +113,7 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
         - Un bouton pour permettre de quitter le jeu
         - Les développeurs / développeuses du jeu, le nom de la formation et l'année scolaire courante
     - Pour rappel, ici il faudra utiliser un Canvas
-- Ajouter un nouveau niveau (décors, ennemis et mécaniques compris)
+- [ ] Ajouter un nouveau niveau (décors, ennemis et mécaniques compris)
     - Vous pouvez utiliser le thème que vous souhaitez pour la décoration. Vous pouvez donc importer de nouvelles tilemaps ou utiliser celles déjà présentes dans le projet
     - Vous pouvez récupérer des mécanismes/ennemis déjà présents dans le premier niveau
      - Il est **impératif** d'avoir dans vos niveaux supplémentaires la prefab "CurrentSceneManager"
@@ -123,16 +123,16 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
     - Vous pourrez trouver des inspirations ici :
         - [https://pixelfrog-assets.itch.io/pixel-adventure-1](https://pixelfrog-assets.itch.io/pixel-adventure-1)
         - [https://pixelfrog-assets.itch.io/pixel-adventure-2](https://pixelfrog-assets.itch.io/pixel-adventure-2)
-- Ajouter un écran des crédits [(voir contenu attendu)](#contenu-de-lécran-des-crédits)
-- Afficher dans la splash page de jeu le logo de l'université (voir menu `Project Settings > Player > Logo`)
+- [ ] Ajouter un écran des crédits [(voir contenu attendu)](#contenu-de-lécran-des-crédits)
+- [ ] Afficher dans la splash page de jeu le logo de l'université (voir menu `Project Settings > Player > Logo`)
     - [Didacticiel en anglais sur la personnalisation de la splash page](https://www.youtube.com/watch?v=BY40xbA5qYQ)
-- Compléter le menu Pause
+- [ ] Compléter le menu Pause
     - Il est déjà possible de mettre le jeu en pause en appuyant sur la touche "Echap"
     - La gestion du menu pause est faite grâce à un ScriptableObject (`Assets/ScriptableObjects/Events/Events/OnTogglePauseEvent`)
     - Libre à vous d'ajouter d'autres options dans le menu de pause comme relancer le niveau ou encore retourner au menu principal via un bouton
     - Le menu Pause doit **au minimum** contenir un bouton pour relancer le jeu et revenir au menu principal
     > Le menu Pause contient du texte. Toutefois, il est possible qu'il ne s'affiche pas. C'est lié à des packages Unity manquants. Pour ce faire, allez dans le menu d'Unity : `Window > TextMeshPro > Import TMP Essential Ressources.` Ceci va afficher une fenêtre, cliquez sur le bouton "Import" en bas à droite.
-- Afficher un indicateur du nombre de points de vie
+- [ ] Afficher un indicateur du nombre de points de vie
     - Optionnel : possibilité de proposer le regain de vie
     - Note : Vous pouvez également décider qu'au moindre dégât le joueur meurt immédiatement
 > La gestion des points de vie du joueur est gérée via un ScriptableObject. Qui gère à la fois le nombre de points de vie actuels et maximum. A noter que la valeur des points de vie actuels est "clampée", autrement dit, elle ne peut pas être inférieure à 0 ni supérieure au nombre de points de vie maximum définis. Si vous le souhaitez, vous pouvez supprimer ce comportement.
