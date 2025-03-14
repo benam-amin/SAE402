@@ -59014,6 +59014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bc2d: {fileID: 722609057}
+  lastCheckpointPosition: {fileID: 11400000, guid: cd0058f42d932c1439ae25492a1043be, type: 2}
 --- !u!61 &722609057
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64810,6 +64811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentSpawnPosition: {x: 0, y: 0, z: 0}
   initialSpawnPosition: {x: 0, y: 0, z: 0}
+  lastCheckpointPosition: {fileID: 11400000, guid: cd0058f42d932c1439ae25492a1043be, type: 2}
 --- !u!114 &814072441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114008,6 +114010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bc2d: {fileID: 1263604276}
+  lastCheckpointPosition: {fileID: 11400000, guid: cd0058f42d932c1439ae25492a1043be, type: 2}
 --- !u!61 &1263604276
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -128145,6 +128148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bc2d: {fileID: 2046488349}
+  lastCheckpointPosition: {fileID: 11400000, guid: cd0058f42d932c1439ae25492a1043be, type: 2}
 --- !u!61 &2046488349
 BoxCollider2D:
   m_ObjectHideFlags: 0
