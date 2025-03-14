@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New PlayerData", menuName = "ScriptableObjects/Variable/PlayerData")]
 public class PlayerData : ScriptableObject
 {
-    public float maxHealth;
+    public float maxHealth = 5;
     public float currentHealth
     {
         get { return _currentHealth; }
