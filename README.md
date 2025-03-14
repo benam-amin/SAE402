@@ -146,7 +146,7 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
     - Dans l'archive que vous avez récupéré au début des cours, il y a un dossier `ressources/unity/sprites/platformer/Enemies`
         - N'oubliez pas qu'il y déjà des scripts décrivant des comportants appliquables à un ennemi : Patrouille (EnemyPatrol), Tir (EnemyShooting + ObjectPooling), Santé (Enemy)... à vous de les réutiliser, au besoin, pour votre nouvel ennemi
         - Voir [gestion des ennemis](#gestion-des-ennemis) pour en savoir plus
-- [ ] Remplacer les carrés bleus qui font office de checkpoints par un sprite plus approprié
+- [x] Remplacer les carrés bleus qui font office de checkpoints par un sprite plus approprié
   - Il y a un sprite dédié dans le projet (`Assets/Imports/Scripts/Misc/Checkpoint*`)
 - [ ] Ajouter un état "désactivé" quand un bloc n'est plus interagissable
   - [ ] **Vous devez faire vous-même le sprite**
@@ -391,7 +391,7 @@ Ces ajouts sont là pour s'assurer que tout le monde travaille équitablement su
     - [ ] Des bruitages lors d'actions (sauts, tir...)
     Vous avez un exemple de fonctionnement de bruitage dans la Prefab "Apple"
     Pourquoi pas ne pas réaliser vous-même ces bruitages ?
-    - [ ] Animer les checkpoints (Les carrés bleus dans le niveau)
+    - [x] Animer les checkpoints (Les carrés bleus dans le niveau)
         Il y a un sprite dédié dans le projet (Assets/Imports/Scripts/Misc/Checkpoint*)
     - [ ] Créer un prop de votre choix (ennemi, bonus, panneau...) et l'intégrer dans le jeu
         Pas besoin que votre props colle avec la direction artistique (DA) du jeu
