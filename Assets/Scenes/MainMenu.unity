@@ -1236,6 +1236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDebugConsoleOpened: 0
   onLevelEnded: {fileID: 11400000, guid: d8e3a95aa1cd7f048b049de7aec12a0c, type: 2}
+  startLevel: 
   onDebugConsoleOpenEvent: {fileID: 11400000, guid: c1e0b7bee58fbb84c95a4e721b6af6ae, type: 2}
 --- !u!4 &1196309770
 Transform:
@@ -2041,7 +2042,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2049346581}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1196309769}
+        m_TargetAssemblyTypeName: CurrentSceneManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: Level1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2049346581
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,6 +7,11 @@ public class CurrentSceneManager : MonoBehaviour
 
     [Header("Listen to events")]
     public StringEventChannel onLevelEnded;
+    
+    [Header("Scene's name to load after the start button is triggered")]
+    public string startLevel;
+    [Space (10)]
+    
     public BoolEventChannel onDebugConsoleOpenEvent;
 
     private void Start()

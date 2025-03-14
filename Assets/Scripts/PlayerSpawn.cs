@@ -10,7 +10,7 @@ public class PlayerSpawn : MonoBehaviour
     public Vector3Variable lastCheckpointPosition;
     private void Awake()
     {     
-        if (lastCheckpointPosition != null) {
+        if (lastCheckpointPosition.CurrentValue != null) {
             transform.position = (Vector3) lastCheckpointPosition.CurrentValue;
         } else {
             lastCheckpointPosition.CurrentValue = transform.position;
