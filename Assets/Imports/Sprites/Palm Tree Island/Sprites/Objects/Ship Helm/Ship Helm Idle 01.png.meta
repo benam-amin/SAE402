@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ship Helm Idle 01_0: 4858479124298454825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

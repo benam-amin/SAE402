@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Front Palm Bottom and Grass (32x32)_0: 2702566320053490778
+      Front Palm Bottom and Grass (32x32)_1: 7623815313420230498
+      Front Palm Bottom and Grass (32x32)_2: 4149243468970886176
+      Front Palm Bottom and Grass (32x32)_3: -463875867332562098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
