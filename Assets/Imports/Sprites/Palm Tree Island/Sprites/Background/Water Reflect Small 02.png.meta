@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Water Reflect Small 02_0: 1804133935770310819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
