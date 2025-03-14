@@ -94,14 +94,14 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
 - Pause / relance : Touche échap
 
 ## Liste des choses impératives à faire. **Vous devez toutes les faire**
-- [ ] Compléter le niveau du projet en permettant au joueur de passer au niveau suivant
+- [x] Compléter le niveau du projet en permettant au joueur de passer au niveau suivant
     - [ ] Il y a déjà des trophées (prefab) qui servent de fin de niveau, il faudra juste les compléter
 - [ ] Compléter l'écran d'accueil (écran qui permet de commencer le jeu)
     - [ ] L'écran doit contenir :
         - [ ] Le logo de l'université
             - Plusieurs versions sont déjà présentes dans le projet dans le dossier `Assets/Imports/Logos` à vous de choisir
-        - [ ] Le nom du jeu
-          - [ ] Vous devez en trouver un
+        - [x] Le nom du jeu  SARCELLES SURPRISE
+          - [x] Vous devez en trouver un SARCELLES SURPRISE
           - Le logo peut être fait sous Photoshop ou autre puis intégré sous forme d'image dans Unity ou tout simplement du texte
         - [ ] De quoi commencer le jeu au premier niveau
             - Il y a déjà un bouton, il faut ajouter la fonction pour charger le premier niveau grâce au `GameObject` CurrentSceneManager
@@ -121,14 +121,15 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
 - [ ] Ajouter un écran des crédits [(voir contenu attendu)](#contenu-de-lécran-des-crédits)
 - [ ] Afficher dans la splash page de jeu le logo de l'université (voir menu `Project Settings > Player > Logo`)
     - [Didacticiel en anglais sur la personnalisation de la splash page](https://www.youtube.com/watch?v=BY40xbA5qYQ)
-- [ ] Compléter le menu Pause
+- [ ] Compléter le menu Pause @benam-amin
     - Il est déjà possible de mettre le jeu en pause en appuyant sur la touche "Echap"
     - La gestion du menu pause est faite grâce à un ScriptableObject (`Assets/ScriptableObjects/Events/Events/OnTogglePauseEvent`)
     - Libre à vous d'ajouter d'autres options dans le menu de pause comme relancer le niveau ou encore retourner au menu principal via un bouton
     - Le menu Pause doit **au minimum** contenir un bouton pour relancer le jeu et revenir au menu principal
+        - [ ] Ajouter bouton pour menu principal, pour reprendre, pour quitter le jeu, pour recommencer le niveau  
     > Le menu Pause contient du texte. Toutefois, il est possible qu'il ne s'affiche pas. C'est lié à des packages Unity manquants. Pour ce faire, allez dans le menu d'Unity : `Window > TextMeshPro > Import TMP Essential Ressources.` Ceci va afficher une fenêtre, cliquez sur le bouton "Import" en bas à droite.
 - [ ] Afficher un indicateur du nombre de points de vie
-    - [ ] Optionnel : possibilité de proposer le regain de vie
+    - [ ] Optionnel : possibilité de proposer le regain de vie (Nombre de pommes : 50)
     - Note : Vous pouvez également décider qu'au moindre dégât le joueur meurt immédiatement
 > La gestion des points de vie du joueur est gérée via un ScriptableObject. Qui gère à la fois le nombre de points de vie actuels et maximum. A noter que la valeur des points de vie actuels est "clampée", autrement dit, elle ne peut pas être inférieure à 0 ni supérieure au nombre de points de vie maximum définis. Si vous le souhaitez, vous pouvez supprimer ce comportement.
 
@@ -310,9 +311,9 @@ Ces ajouts sont là pour s'assurer que tout le monde travaille équitablement su
 
 ## Votre liste à faire
 - [x] Lire les consignes
-- [ ] Former votre groupe (3 à 5 max), plus tôt vous le ferez, plus tôt vous pourrez commencer à travailler sereinement
+- [x] Former votre groupe (3 à 5 max), plus tôt vous le ferez, plus tôt vous pourrez commencer à travailler sereinement
   - **N'oubliez pas que si vous êtes plus de trois, vous avez plus de choses à faire**
-- [ ] Initialiser le projet sur github. [Voir partie sur git](#utilisation-de-git)
+- [x] Initialiser le projet sur github. [Voir partie sur git](#utilisation-de-git)
 - [ ] Respecter les attentes
 - [ ] Tester le jeu avant de le rendre
 - [ ] Générer une archive contenant :
