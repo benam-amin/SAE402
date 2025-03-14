@@ -17,6 +17,7 @@ public class BlockHit : MonoBehaviour
 
     private void Awake() {
         Debug.Log("isHidden: " + isHidden);
+        numberHit = 2;
         sr.enabled = !isHidden;  // Désactiver le SpriteRenderer si isHidden est vrai
         platformEffector2D.enabled = isHidden; // Activer PlatformEffector2D si isHidden est vrai
         animator.ResetTrigger("IsHit"); // Réinitialiser le trigger
@@ -27,15 +28,22 @@ public class BlockHit : MonoBehaviour
         collision.GetContacts(listContacts);
         if (listContacts[0].normal.y > 0.5f && collision.gameObject.CompareTag("Player") && numberHit > 0) {
             StartCoroutine(Hit());
+            if (numberHit <= 0) {
+        }
         }
 
     }
+
     private IEnumerator Hit() {
         yield return null;
         sr.enabled = true;
         Debug.Log("Hit triggered");
         animator.SetTrigger("IsHit");
         numberHit--;
+        animator.SetInteger("numberHit", numberHit);
+        if (numberHit <= 0) {
+            animator.SetTrigger ("IsInactive");
+        }
          if (itemPrefab != null) {
             GameObject item = Instantiate(itemPrefab, transform.position, Quaternion.identity);
             item.GetComponent<Collectible>().canBeDestroyedOnContact = false;
@@ -43,7 +51,6 @@ public class BlockHit : MonoBehaviour
             yield return item.transform.MoveBackAndForth(endPosition);
             item.GetComponent<Collectible>().Picked();
         }
-        
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 }

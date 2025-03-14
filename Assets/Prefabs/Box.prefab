@@ -175,6 +175,7 @@ MonoBehaviour:
   numberHit: 2
   itemPrefab: {fileID: 6722714434073853403, guid: 3a535e80d5f7cab42aa945a6a87c152f, type: 3}
   sr: {fileID: 2170141989109286643}
+  newSprite: {fileID: 21300000, guid: 53dd3011ef4e87946b0bb5caba92f639, type: 3}
   platformEffector2D: {fileID: 6728471840191914700}
   isHidden: 1
 --- !u!251 &6728471840191914700

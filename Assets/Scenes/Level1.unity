@@ -64126,6 +64126,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box
       objectReference: {fileID: 0}
+    - target: {fileID: 3221599080182098695, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150885088534644024, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
+      propertyPath: isHidden
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -113084,7 +113092,7 @@ GameObject:
   - component: {fileID: 1195223842}
   - component: {fileID: 1195223844}
   - component: {fileID: 1195223843}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BlockContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123946,6 +123954,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box
       objectReference: {fileID: 0}
+    - target: {fileID: 3221599080182098695, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150885088534644024, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
+      propertyPath: isHidden
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -126500,63 +126516,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6b3e4f7870f2cd40aa2376b65ab375b, type: 3}
---- !u!1001 &1844199732
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4404005581585002445, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_Name
-      value: Checkpoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.5713336
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.22203338
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841520037023830240, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 71e754f8b176c1a469e5ae3fff534c0d, type: 3}
 --- !u!4 &1844585990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000432134071860588, guid: 7f643e4a1e0627c40ba0bc981b1f24b2, type: 3}
@@ -135043,4 +135002,3 @@ SceneRoots:
   - {fileID: 585256500}
   - {fileID: 1682116831}
   - {fileID: 103490839}
-  - {fileID: 1844199732}
