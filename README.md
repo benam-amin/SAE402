@@ -381,3 +381,48 @@ Ces ajouts sont là pour s'assurer que tout le monde travaille équitablement su
     ![](shader-textmeshpro.png)
 
     Ceci va ouvrir une fenêtre, laissez tout coché et cliquez sur l'option "Import".
+# Liste des choses à faire au choix. Vous devez au moins en faire une (deux si vous êtes plus de trois dans votre groupe)
+    - [ ] Ajouter une musique. Vous pourrez en trouver sur ces sites :
+        http://dig.ccmixter.org/games
+        https://www.playonloop.com/royalty-free-music/video-game-chiptune-music/
+        https://github.com/OpenSourceMusic
+        https://opengameart.org/
+        Rappel : la musique est gérée au niveau de la scène _Preload
+    - [ ] Des bruitages lors d'actions (sauts, tir...)
+    Vous avez un exemple de fonctionnement de bruitage dans la Prefab "Apple"
+    Pourquoi pas ne pas réaliser vous-même ces bruitages ?
+    - [ ] Animer les checkpoints (Les carrés bleus dans le niveau)
+        Il y a un sprite dédié dans le projet (Assets/Imports/Scripts/Misc/Checkpoint*)
+    - [ ] Créer un prop de votre choix (ennemi, bonus, panneau...) et l'intégrer dans le jeu
+        Pas besoin que votre props colle avec la direction artistique (DA) du jeu
+        Ce n'est pas du grand art qui est attendu. Si nous n'êtes pas à l'aise avec le dessin, un simple panneau est suffisant
+        Vous pouvez utiliser le logiciel gratuit LibreSprite pour réaliser votre création en pixelart. Sinon, il y a Photoshop
+    - [ ] Expliquer comment le jeu fonctionne (les contrôles, mécaniques...)
+        Vous pouvez réaliser cette tâche via un niveau de didacticiel, un menu dédié ou tout simplement du texte affiché directement dans la scène    
+        Il y a un sprite avec les différents contrôles et boutons dans les Assets que vous avez téléchargé. Si le sprite ne vous convient pas, vous pouvez également en télécharger un sur le site thoseawesomeguys, néanmoins les images sont séparées, il est préférable de         tout fusionner en un sprite. Il est possible de générer des sprites avec un site comme images-sprite-sheet-generator
+
+    - [ ] Afficher, lorsqu'un niveau est terminé, le temps mis par le joueur pour terminer le niveau et d'autres statistiques (nombre d'ennemis éliminés, nombre de sauts...)
+
+    - [ ] Mettre en place un piège parmi ceux présents dans le dossier sprites/platformer/Traps
+        A vous de gérer le comportement : Est-ce que ça bouge ? Quels dégâts sont infligés ?
+        Note : Il y a un script dans le dossier Assets/Scripts/Utils nommé Trap qui gère de façon simple les dégâts sur le joueur
+    - [ ] Proposer au joueur de choisir un personnage. Ce choix peut être fait :
+        Au début du jeu, juste avant de commencer un niveau
+        Après chaque mort du joueur
+        Pour éviter de faire les animations pour chaque personnage Unity propose un système dédié: https://www.youtube.com/watch?v=6mNak-mQZpc - anglais
+        Note : Comparé à la vidéo, l'interface d'Unity a un peu changé, mais le principe reste le même
+        Note 2 : Il faut obligatoirement appliquer le système sur toutes les animations, sinon, vous allez avoir un comportement étrange au niveau des animations
+        Note 3 : Si vous souhaitez faire référence à un SpriteLibraryAsset dans vos scripts, il faudra impérativement importer la bibliothèque Unity​Engine.​U2D.​Animation au début de vos scripts via la ligne using Unity​Engine.​U2D.​Animation;
+        Libre à vous de proposer des caractérisques différentes entre chaque personnage
+
+
+    - [ ] Mettre en place des plateformes qui se déplacent automatiquement sur un chemin balisé via des points de cheminement ("waypoint" en anglais). Il y a déjà un script Scripts/Utils/WaypointManager.cs pour vous aider à mettre en place ce système
+
+    - [ ] Indiquer visuellement l'état de santé du joueur (couleur, vitesse d'animation...)
+
+    - [ ] Ajouter des blocs qui peuvent être cassé quand le joueur les touche avec la tête (en sautant donc). Certains peuvent être cachés et même contenir des objets
+
+Si le temps nous le permet, nous le ferons en cours ensemble
+Cacher les tuiles qui cachent les zones secrètes au lieu d'utiliser les masques déjà présents
+
+N'oubliez pas : c'est votre jeu. N'hésitez pas à ajouter d'autres fonctionnalités, les possibilités sont infinies : score, chronomètre, boss, objets à récupérer... Faites preuve d'imagination, ce projet peut être un très beau moyen de valoriser vos CV. Ne vous limitez pas parce que c'est un devoir. Tentez des choses, l'école est l'occasion de tenter des trucs en sécurité mais surtout apprendre de nouvelles choses.
