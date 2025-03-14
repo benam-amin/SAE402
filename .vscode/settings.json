@@ -51,5 +51,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "SAE402.sln"
+    "dotnet.defaultSolution": "SAE402.sln",
+    "cSpell.words": [
+        "orignal"
+    ]
 }
