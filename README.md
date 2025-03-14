@@ -108,7 +108,7 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
         - [ ] Un bouton pour permettre de quitter le jeu
         - [ ] Les développeurs / développeuses du jeu, le nom de la formation et l'année scolaire courante
     - [ ] Pour rappel, ici il faudra utiliser un Canvas
-- [ ] Ajouter un nouveau niveau (décors, ennemis et mécaniques compris)
+- [ ] Ajouter un nouveau niveau (décors, ennemis et mécaniques compris) (BAPTISTE ET ABBY)
     - Vous pouvez utiliser le thème que vous souhaitez pour la décoration. Vous pouvez donc importer de nouvelles tilemaps ou utiliser celles déjà présentes dans le projet
     - Vous pouvez récupérer des mécanismes/ennemis déjà présents dans le premier niveau
     - Il est **impératif** d'avoir dans vos niveaux supplémentaires la prefab "CurrentSceneManager"
