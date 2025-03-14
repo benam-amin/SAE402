@@ -74,6 +74,8 @@ public class StunEffectManager : MonoBehaviour
 
             listStunEffects.Add(stunEffect);
         }
+
+        ToggleVisiblity(false);
     }
 
     public void ToggleVisiblity(bool isVisible)
