@@ -128,7 +128,7 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
     - Le menu Pause doit **au minimum** contenir un bouton pour relancer le jeu et revenir au menu principal
         - [ ] Ajouter bouton pour menu principal, pour reprendre, pour quitter le jeu, pour recommencer le niveau  
     > Le menu Pause contient du texte. Toutefois, il est possible qu'il ne s'affiche pas. C'est lié à des packages Unity manquants. Pour ce faire, allez dans le menu d'Unity : `Window > TextMeshPro > Import TMP Essential Ressources.` Ceci va afficher une fenêtre, cliquez sur le bouton "Import" en bas à droite.
-- [ ] Afficher un indicateur du nombre de points de vie
+- [x] Afficher un indicateur du nombre de points de vie
     - [ ] Optionnel : possibilité de proposer le regain de vie (Nombre de pommes : 50)
     - Note : Vous pouvez également décider qu'au moindre dégât le joueur meurt immédiatement
 > La gestion des points de vie du joueur est gérée via un ScriptableObject. Qui gère à la fois le nombre de points de vie actuels et maximum. A noter que la valeur des points de vie actuels est "clampée", autrement dit, elle ne peut pas être inférieure à 0 ni supérieure au nombre de points de vie maximum définis. Si vous le souhaitez, vous pouvez supprimer ce comportement.
@@ -148,8 +148,8 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
         - Voir [gestion des ennemis](#gestion-des-ennemis) pour en savoir plus
 - [x] Remplacer les carrés bleus qui font office de checkpoints par un sprite plus approprié
   - Il y a un sprite dédié dans le projet (`Assets/Imports/Scripts/Misc/Checkpoint*`)
-- [ ] Ajouter un état "désactivé" quand un bloc n'est plus interagissable
-  - [ ] **Vous devez faire vous-même le sprite**
+- [x] Ajouter un état "désactivé" quand un bloc n'est plus interagissable
+  - [x] **Vous devez faire vous-même le sprite**
 
 
 ## <span id="list-extras">Liste des choses à faire au choix. Vous devez au moins en faire une (**deux si vous êtes plus de trois dans votre groupe**)</span>
