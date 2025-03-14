@@ -64126,6 +64126,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box
       objectReference: {fileID: 0}
+    - target: {fileID: 3221599080182098695, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150885088534644024, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
+      propertyPath: isHidden
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -113084,7 +113092,7 @@ GameObject:
   - component: {fileID: 1195223842}
   - component: {fileID: 1195223844}
   - component: {fileID: 1195223843}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BlockContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123945,6 +123953,14 @@ PrefabInstance:
     - target: {fileID: 3221599080182098695, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
       propertyPath: m_Name
       value: Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221599080182098695, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150885088534644024, guid: 8e22ec91af4651c46a94926dc24a4817, type: 3}
+      propertyPath: isHidden
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
