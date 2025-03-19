@@ -133680,11 +133680,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1781764230485939989, guid: d5abf920d841de44c839d2041c0747bf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.08
+      value: -10.47
       objectReference: {fileID: 0}
     - target: {fileID: 1781764230485939989, guid: d5abf920d841de44c839d2041c0747bf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.44
+      value: 4.66
       objectReference: {fileID: 0}
     - target: {fileID: 1781764230485939989, guid: d5abf920d841de44c839d2041c0747bf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -133807,6 +133807,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 814072436}
+    - target: {fileID: 107261412584399401, guid: bcf64c06dcf0141469bc2821ed17a97d, type: 3}
+      propertyPath: isFacingRight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 107261412584399405, guid: bcf64c06dcf0141469bc2821ed17a97d, type: 3}
       propertyPath: timeDelayBetweenShots
       value: 1.25
