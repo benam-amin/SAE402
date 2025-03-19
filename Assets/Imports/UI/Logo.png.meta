@@ -91,7 +91,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -129,7 +129,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -575,7 +575,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -584,7 +584,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Logo_0: 1404028623067837608
+      Logo_1: 6795467416601567747
+      Logo_10: 9156548432191564253
+      Logo_11: -1306304639851798359
+      Logo_12: -1528687246299850986
+      Logo_13: -1453834278069125553
+      Logo_14: -8074770578077153683
+      Logo_15: -6159489392364382447
+      Logo_16: -4536293588464031748
+      Logo_17: -2080403533957981334
+      Logo_18: 4557605079627867692
+      Logo_2: 6875538535012287733
+      Logo_3: 2381070441135384947
+      Logo_4: -3774021269495190454
+      Logo_5: 6893372319333685202
+      Logo_6: 5409054819110567409
+      Logo_7: -5151548511015374267
+      Logo_8: 8618792996653847996
+      Logo_9: -8503305437844106070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
