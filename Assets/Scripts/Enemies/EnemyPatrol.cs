@@ -20,13 +20,15 @@ public class EnemyPatrol : MonoBehaviour
     private WaitForSeconds waitIdleTime;
     [Tooltip("If false, the enemy will move endlessly back and forth")]
     public bool canWait = true;
+    [Tooltip("If false, the enemy will flip when he doesn't touch the ground, if true, the enemy will be able to fly")]
+    public bool canFly = false;
 
     [Header("Collision detection")]
     public LayerMask obstacleLayersMask;
     public float obstacleDetectionLength = 0.15f;
     public BoxCollider2D bc;
     [UnityEngine.Serialization.FormerlySerializedAs("groundCheckRadius")]
-    public float obstacleCheckRadius = 0.25f;
+    public float obstacleCheckRadius = 1f;
 
     private void Awake()
     {
@@ -54,9 +56,16 @@ public class EnemyPatrol : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (HasCollisionWithObstacle() || HasNotTouchedGround())
-        {
-            Flip();
+        if(canFly){
+            if (HasCollisionWithObstacle())
+            {
+                Flip();
+            }
+        } else {
+            if (HasCollisionWithObstacle() || HasNotTouchedGround())
+            {
+                Flip();
+            }
         }
 
         if (isIdle)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class EndLevel : MonoBehaviour
@@ -14,6 +15,7 @@ public class EndLevel : MonoBehaviour
     [Header("Broadcast event channels")]
     public StringEventChannel onLevelEnded;
     public PlaySoundAtEventChannel sfxAudioChannel;
+    public CurrentSceneManager csm;
 
     private bool hasBeenTriggered = false;
 
@@ -26,7 +28,7 @@ public class EndLevel : MonoBehaviour
             {
                 particles.Play();
                 sfxAudioChannel.Raise(audioClip, transform.position);
-                onLevelEnded.Raise(nextLevelName);
+                SceneManager.LoadScene(nextLevelName);
             } else {
                 Debug.LogError("Level missing");
             }
