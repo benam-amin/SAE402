@@ -20,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("Broadcast event channels")]
     public VoidEventChannel onPlayerDeath;
     private int NmbPommeRamasse = 0;
+     public HealthSystem healthSystem;
 
     private void Awake()
     {
@@ -39,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
         if (playerInvulnerable.isInvulnerable && damage < float.MaxValue) return;
 
         playerData.currentHealth -= damage;
+        healthSystem.UpdateHearts();
         if (playerData.currentHealth <= 0)
         {
             Die();
@@ -77,7 +79,8 @@ public class PlayerHealth : MonoBehaviour
     }
     private void GainVie()
     {
-        playerData.currentHealth += 2;
+        playerData.currentHealth += 1;
+        healthSystem.UpdateHearts();
         if (playerData.currentHealth > playerData.maxHealth)
         {
             playerData.currentHealth = playerData.maxHealth; // Empêche d'avoir plus que la vie max
