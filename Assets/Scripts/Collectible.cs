@@ -14,6 +14,7 @@ public class Collectible : MonoBehaviour
     private float rotationOffset = 15f;
     private float oscillationSpeed = 1.5f;
 
+
     private void Awake()
     {
         spriteRenderer.sprite = data.sprite;
@@ -31,6 +32,11 @@ public class Collectible : MonoBehaviour
     {
         if (collision.CompareTag("Player") && canBeDestroyedOnContact)
         {
+            PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.NombrePommeCollec(); // Appel de la méthode
+            }
             Picked();
         }
     }

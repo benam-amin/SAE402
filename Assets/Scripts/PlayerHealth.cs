@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("Broadcast event channels")]
     public VoidEventChannel onPlayerDeath;
+    private int NmbPommeRamasse = 0;
 
     private void Awake()
     {
@@ -64,5 +65,23 @@ public class PlayerHealth : MonoBehaviour
     private void OnDisable()
     {
         onDebugDeathEvent.OnEventRaised -= Die;
+    }
+    public void NombrePommeCollec ()
+    {
+        NmbPommeRamasse++;
+        Debug.Log("Pommes collectées : " + NmbPommeRamasse);
+        if (NmbPommeRamasse >= 10){
+            GainVie();
+            NmbPommeRamasse = 0;
+        }
+    }
+    private void GainVie()
+    {
+        playerData.currentHealth += 2;
+        if (playerData.currentHealth > playerData.maxHealth)
+        {
+            playerData.currentHealth = playerData.maxHealth; // Empêche d'avoir plus que la vie max
+        }
+        Debug.Log("Vie restaurée ! Points de vie actuels : " + playerData.currentHealth);
     }
 }
