@@ -15,7 +15,7 @@ public class EndLevel : MonoBehaviour
     [Header("Broadcast event channels")]
     public StringEventChannel onLevelEnded;
     public PlaySoundAtEventChannel sfxAudioChannel;
-    public CurrentSceneManager csm;
+    public Vector3Variable playerPosition;
 
     private bool hasBeenTriggered = false;
 
@@ -25,10 +25,11 @@ public class EndLevel : MonoBehaviour
         {
             hasBeenTriggered = true;
             if (nextLevelName != null)
-            {
+            {   
+                playerPosition.CurrentValue = null;
                 particles.Play();
                 sfxAudioChannel.Raise(audioClip, transform.position);
-                SceneManager.LoadScene(nextLevelName);
+                onLevelEnded.Raise(nextLevelName);
             } else {
                 Debug.LogError("Level missing");
             }
