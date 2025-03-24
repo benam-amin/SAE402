@@ -28,7 +28,7 @@ public class EndLevel : MonoBehaviour
             {
                 particles.Play();
                 sfxAudioChannel.Raise(audioClip, transform.position);
-                SceneManager.LoadScene(nextLevelName);
+                onLevelEnded.Raise(nextLevelName);
             } else {
                 Debug.LogError("Level missing");
             }
