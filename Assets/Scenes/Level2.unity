@@ -16150,6 +16150,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394424353}
     m_Modifications:
+    - target: {fileID: 207637760, guid: bcf64c06dcf0141469bc2821ed17a97d, type: 3}
+      propertyPath: m_Offset.x
+      value: 1.54
+      objectReference: {fileID: 0}
     - target: {fileID: 107261412584399392, guid: bcf64c06dcf0141469bc2821ed17a97d, type: 3}
       propertyPath: m_Name
       value: PlantEnemy (1)
@@ -29525,6 +29529,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394424353}
     m_Modifications:
+    - target: {fileID: 207637760, guid: bcf64c06dcf0141469bc2821ed17a97d, type: 3}
+      propertyPath: m_Offset.x
+      value: 1.58
+      objectReference: {fileID: 0}
     - target: {fileID: 107261412584399392, guid: bcf64c06dcf0141469bc2821ed17a97d, type: 3}
       propertyPath: m_Name
       value: PlantEnemy
