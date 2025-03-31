@@ -559,7 +559,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo-iut-carre_0: 4598007046895778429
+      logo-iut-carre_1: 5748751388800526185
+      logo-iut-carre_10: 2432297078308165461
+      logo-iut-carre_11: -8169362940949748821
+      logo-iut-carre_12: 3947258425063693819
+      logo-iut-carre_13: -593006215967340347
+      logo-iut-carre_14: -926880556939013209
+      logo-iut-carre_15: 1069184106304233958
+      logo-iut-carre_16: 5712232346045456944
+      logo-iut-carre_17: 5527248915558251332
+      logo-iut-carre_2: 5655080003871399173
+      logo-iut-carre_3: 4797095137856830828
+      logo-iut-carre_4: -7543239656478949285
+      logo-iut-carre_5: -9181920481416514961
+      logo-iut-carre_6: -2106715128626825386
+      logo-iut-carre_7: 1258696611684649885
+      logo-iut-carre_8: -8393494210893219859
+      logo-iut-carre_9: -4952967279712829823
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
