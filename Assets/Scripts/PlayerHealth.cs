@@ -53,6 +53,19 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+#if UNITY_EDITOR
+        //permet de tester la mort
+        private void Update() {
+            if(Input.GetKeyDown(KeyCode.M)) {
+                InstantDeath();
+            }
+        }
+        private void InstantDeath() {
+                playerData.currentHealth = 0;
+                Die();
+            }
+#endif
+    
     private void Die()
     {
         onPlayerDeath?.Raise();
@@ -66,6 +79,7 @@ public class PlayerHealth : MonoBehaviour
         sr.enabled = false;
     }
 
+    
     private void OnDisable()
     {
         onDebugDeathEvent.OnEventRaised -= Die;
