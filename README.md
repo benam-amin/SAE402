@@ -119,7 +119,7 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
         - [https://pixelfrog-assets.itch.io/pixel-adventure-1](https://pixelfrog-assets.itch.io/pixel-adventure-1)
         - [https://pixelfrog-assets.itch.io/pixel-adventure-2](https://pixelfrog-assets.itch.io/pixel-adventure-2)
 - [ ] Ajouter un écran des crédits [(voir contenu attendu)](#contenu-de-lécran-des-crédits)
-- [ ] Afficher dans la splash page de jeu le logo de l'université (voir menu `Project Settings > Player > Logo`)
+- [x] Afficher dans la splash page de jeu le logo de l'université (voir menu `Project Settings > Player > Logo`)
     - [Didacticiel en anglais sur la personnalisation de la splash page](https://www.youtube.com/watch?v=BY40xbA5qYQ)
 - [ ] Compléter le menu Pause @estban_000
     - Il est déjà possible de mettre le jeu en pause en appuyant sur la touche "Echap"
