@@ -10,6 +10,7 @@ public class BlockHit : MonoBehaviour
     public SpriteRenderer sr;
     public PlatformEffector2D platformEffector2D;
     public bool isHidden = false;
+    public PlayerHealth playerHealth;
 
     // private void Start() {
     // Debug.Log("Start called");
@@ -28,6 +29,7 @@ public class BlockHit : MonoBehaviour
         collision.GetContacts(listContacts);
         if (listContacts[0].normal.y > 0.5f && collision.gameObject.CompareTag("Player") && numberHit > 0) {
             StartCoroutine(Hit());
+            playerHealth.AppleCollected();
             if (numberHit <= 0) {
         }
         }

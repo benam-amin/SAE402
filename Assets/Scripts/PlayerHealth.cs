@@ -19,8 +19,10 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("Broadcast event channels")]
     public VoidEventChannel onPlayerDeath;
-    private int NmbPommeRamasse = 0;
-     public HealthSystem healthSystem;
+    
+    private int AppleCollectedNumber = 0;
+
+    public HealthSystem healthSystem;
 
     private void Awake()
     {
@@ -68,16 +70,15 @@ public class PlayerHealth : MonoBehaviour
     {
         onDebugDeathEvent.OnEventRaised -= Die;
     }
-    public void NombrePommeCollec ()
+    public void AppleCollected ()
     {
-        NmbPommeRamasse++;
-        Debug.Log("Pommes collectées : " + NmbPommeRamasse);
-        if (NmbPommeRamasse >= 10){
-            GainVie();
-            NmbPommeRamasse = 0;
+        AppleCollectedNumber++;
+        Debug.Log("Pommes collectées : " + AppleCollectedNumber);
+        if (AppleCollectedNumber % 10 == 0){
+            GainHeart();
         }
     }
-    private void GainVie()
+    private void GainHeart()
     {
         playerData.currentHealth += 1;
         healthSystem.UpdateHearts();
