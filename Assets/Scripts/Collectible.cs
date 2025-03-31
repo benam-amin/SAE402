@@ -35,7 +35,7 @@ public class Collectible : MonoBehaviour
             PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-                playerHealth.NombrePommeCollec(); // Appel de la méthode
+                playerHealth.AppleCollected(); // Appel de la méthode
             }
             Picked();
         }
