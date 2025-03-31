@@ -16,12 +16,12 @@ PlayerSettings:
   productName: Sarcelles Surprise
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+  m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 0
   m_SplashScreenOverlayOpacity: 1
-  m_SplashScreenAnimation: 0
-  m_SplashScreenLogoStyle: 1
+  m_SplashScreenAnimation: 1
+  m_SplashScreenLogoStyle: 0
   m_SplashScreenDrawMode: 1
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
@@ -41,6 +41,8 @@ PlayerSettings:
     height: 1
   m_SplashScreenLogos:
   - logo: {fileID: 21300000, guid: d38e1ba9e8e0ede418dfb131c6ad1969, type: 3}
+    duration: 2
+  - logo: {fileID: 4604799387594401705, guid: 9926ccbf984aac24d8e48288ed1c9743, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 77bd2530d21da4244bd08d098f31f947, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
