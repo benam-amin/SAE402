@@ -350,7 +350,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quitter le jeu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 69a12562d29929c4d9766c951acd424c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5236a3a3a8a9459479a7e2b7437e7043, type: 2}
   m_sharedMaterial: {fileID: -7997704734085349164, guid: 69a12562d29929c4d9766c951acd424c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3457989034083302873
@@ -560,7 +560,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Menu Princpal
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 69a12562d29929c4d9766c951acd424c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5236a3a3a8a9459479a7e2b7437e7043, type: 2}
   m_sharedMaterial: {fileID: -7997704734085349164, guid: 69a12562d29929c4d9766c951acd424c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -626,7 +626,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &4860295501058229683
@@ -771,7 +771,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Recommencer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 41c88923dc875c14ca3e830d9375a0f0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5236a3a3a8a9459479a7e2b7437e7043, type: 2}
   m_sharedMaterial: {fileID: -7997704734085349164, guid: 41c88923dc875c14ca3e830d9375a0f0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &5036525743592056286
@@ -907,7 +907,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Vous \xEAtes mort ! "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 41c88923dc875c14ca3e830d9375a0f0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5236a3a3a8a9459479a7e2b7437e7043, type: 2}
   m_sharedMaterial: {fileID: -7997704734085349164, guid: 41c88923dc875c14ca3e830d9375a0f0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -973,7 +973,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &6540465195843478852
