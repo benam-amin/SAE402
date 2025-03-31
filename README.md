@@ -95,10 +95,10 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
 
 ## Liste des choses impératives à faire. **Vous devez toutes les faire**
 - [x] Compléter le niveau du projet en permettant au joueur de passer au niveau suivant
-    - [ ] Il y a déjà des trophées (prefab) qui servent de fin de niveau, il faudra juste les compléter
-- [ ] Compléter l'écran d'accueil (écran qui permet de commencer le jeu)
-    - [ ] L'écran doit contenir :
-        - [ ] Le logo de l'université
+    - [x] Il y a déjà des trophées (prefab) qui servent de fin de niveau, il faudra juste les compléter
+- [x] Compléter l'écran d'accueil (écran qui permet de commencer le jeu)
+    - L'écran doit contenir :
+        - [x] Le logo de l'université
             - Plusieurs versions sont déjà présentes dans le projet dans le dossier `Assets/Imports/Logos` à vous de choisir
         - [x] Le nom du jeu  SARCELLES SURPRISE
           - [x] Vous devez en trouver un SARCELLES SURPRISE
@@ -107,7 +107,7 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
             - Il y a déjà un bouton, il faut ajouter la fonction pour charger le premier niveau grâce au `GameObject` CurrentSceneManager
         - [x] Un bouton pour permettre de quitter le jeu
         - [ ] Les développeurs / développeuses du jeu, le nom de la formation et l'année scolaire courante
-    - [ ] Pour rappel, ici il faudra utiliser un Canvas
+    - Pour rappel, ici il faudra utiliser un Canvas
 - [ ] Ajouter un nouveau niveau (décors, ennemis et mécaniques compris) (BAPTISTE ET ABBY) @BaptisteCtldWbr et @Aeadn
     - Vous pouvez utiliser le thème que vous souhaitez pour la décoration. Vous pouvez donc importer de nouvelles tilemaps ou utiliser celles déjà présentes dans le projet
     - Vous pouvez récupérer des mécanismes/ennemis déjà présents dans le premier niveau
@@ -140,7 +140,7 @@ Pour faciliter le développement, des raccouris (qui ne seront pas présents dan
     - [x] La mort instanée si le joueur est écrasé par un RockHead ou que ses points de vie atteignent 0
     - [x] **A vous de faire le reste** (liste non exhaustive)
       - [x] Bloquer les mouvements du joueur
-      - [ ] Afficher un écran de "Fin de partie"
+      - [x] Afficher un écran de "Fin de partie"
       - [ ] ...
 - [x] Rajouter un ennemi parmi ceux proposés **Baptiste**
     - Dans l'archive que vous avez récupéré au début des cours, il y a un dossier `ressources/unity/sprites/platformer/Enemies`
