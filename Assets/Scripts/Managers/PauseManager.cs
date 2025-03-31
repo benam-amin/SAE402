@@ -49,7 +49,7 @@ public class PauseManager : MonoBehaviour
         Application.targetFrameRate = 30;
     }
 
-    void TogglePause(bool pauseGame)
+    public void TogglePause(bool pauseGame)
     {
         if (!pauseGame)
         {
