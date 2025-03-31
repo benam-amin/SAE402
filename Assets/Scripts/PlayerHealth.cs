@@ -20,7 +20,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("Broadcast event channels")]
     public VoidEventChannel onPlayerDeath;
     
-    private int AppleCollectedNumber = 0;
+    public int AppleCollectedNumber = 0;
 
     public HealthSystem healthSystem;
 
@@ -88,7 +88,7 @@ public class PlayerHealth : MonoBehaviour
     {
         AppleCollectedNumber++;
         Debug.Log("Pommes collectées : " + AppleCollectedNumber);
-        if (AppleCollectedNumber % 10 == 0){
+        if (AppleCollectedNumber % 50 == 0){
             GainHeart();
         }
     }
