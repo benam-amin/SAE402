@@ -13,6 +13,7 @@ public class CurrentSceneManager : MonoBehaviour
     [Space (10)]
     
     public BoolEventChannel onDebugConsoleOpenEvent;
+    public Vector3Variable playerPosition;
 
     private void Start()
     {
@@ -52,8 +53,10 @@ public class CurrentSceneManager : MonoBehaviour
 
     public void RestartLevel()
     {
+        playerPosition.CurrentValue = null;
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
 
     public static void RestartLastCheckpoint()
