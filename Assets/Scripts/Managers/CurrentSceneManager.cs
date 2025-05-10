@@ -70,6 +70,17 @@ public class CurrentSceneManager : MonoBehaviour
         // Reset Player's rotation
     }
 
+    public static void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
+    public void MainMenu()
+    {
+        Debug.Log("Retour au menu demandé");
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public static void QuitGame()
     {
 #if UNITY_EDITOR
