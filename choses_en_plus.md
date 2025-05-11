@@ -1,0 +1,1 @@
+nous avons ajouter la secousse et les animations de checkpoints. 
