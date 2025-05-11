@@ -1,1 +1,1 @@
-nous avons ajouter la secousse et les animations de checkpoints. 
+nous avons ajouter la secousse et les animations de checkpoints. Nous avons aussi un compteur de pommes. 
