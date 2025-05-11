@@ -34,9 +34,11 @@ public class PauseManager : MonoBehaviour
     public void Resume()
     {
         Time.timeScale = 1f;
-        onTogglePauseEvent.Raise(false);
         pauseMenuUI.SetActive(false);
+        pauseMenuUI.SetActive(false);
+        onTogglePauseEvent.Raise(false);
     }
+
 
     void Pause(bool displayPauseMenuUI = true)
     {

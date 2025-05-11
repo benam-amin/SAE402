@@ -18020,73 +18020,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 879175950778413934}
-    - target: {fileID: 4173967840164215598, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestartLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 4173967840164215598, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CurrentSceneManager, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 5170428191538937793, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 879175950778413934}
-    - target: {fileID: 5170428191538937793, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
-      objectReference: {fileID: 0}
     - target: {fileID: 5289858644505965472, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
       propertyPath: m_Name
       value: PAUSE MENU
-      objectReference: {fileID: 0}
-    - target: {fileID: 5289858644505965472, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5438396351365347574, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -8715481739508507320, guid: 5236a3a3a8a9459479a7e2b7437e7043, type: 2}
-    - target: {fileID: 5438396351365347574, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6514847887389946884, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -8715481739508507320, guid: 5236a3a3a8a9459479a7e2b7437e7043, type: 2}
-    - target: {fileID: 6514847887389946884, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7145790927856253545, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -8715481739508507320, guid: 5236a3a3a8a9459479a7e2b7437e7043, type: 2}
-    - target: {fileID: 7145790927856253545, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315360564742323089, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315360564742323089, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 879175950831259078, guid: 4f5509a2dc47c8d458c27204332596dc, type: 3}
-    - target: {fileID: 7315360564742323089, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Resume
-      objectReference: {fileID: 0}
-    - target: {fileID: 7853678498774463594, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -8715481739508507320, guid: 5236a3a3a8a9459479a7e2b7437e7043, type: 2}
-    - target: {fileID: 7853678498774463594, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -134309,6 +134249,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2336584128305408489, guid: 29a5b4b97c761ef4d97e8889b9d2591e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 40.00005
+      objectReference: {fileID: 0}
     - target: {fileID: 4163581747507094711, guid: 29a5b4b97c761ef4d97e8889b9d2591e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -134320,6 +134264,10 @@ PrefabInstance:
     - target: {fileID: 7059454037120788803, guid: 29a5b4b97c761ef4d97e8889b9d2591e, type: 3}
       propertyPath: m_Name
       value: DEATH MENU
+      objectReference: {fileID: 0}
+    - target: {fileID: 7059454037120788803, guid: 29a5b4b97c761ef4d97e8889b9d2591e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

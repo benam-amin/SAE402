@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04dca70fcee2295499e1cfab1243e199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 0}
+  pauseMenuUI: {fileID: 5289858644505965472, guid: 6b4fa7f9d3e72894a8219d836909fafb, type: 3}
   onTogglePauseEvent: {fileID: 11400000, guid: b7a6509538354b74cbca707412cc0d24, type: 2}
   onDebugConsoleOpenEvent: {fileID: 11400000, guid: c1e0b7bee58fbb84c95a4e721b6af6ae, type: 2}
 --- !u!114 &879175950831259073
