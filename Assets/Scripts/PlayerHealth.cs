@@ -23,6 +23,12 @@ public class PlayerHealth : MonoBehaviour
     public int AppleCollectedNumber = 0;
 
     public HealthSystem healthSystem;
+    public CameraShakeEventChannel cameraShake;
+
+    [Header("Shake effect")]
+    public ShakeTypeVariable shakeInfo;
+
+    private bool isOnScreen = false;
 
     private void Awake()
     {
@@ -43,6 +49,12 @@ public class PlayerHealth : MonoBehaviour
 
         playerData.currentHealth -= damage;
         healthSystem.UpdateHearts();
+
+        if (isOnScreen)
+        {
+            cameraShake?.Raise(shakeInfo);
+        }
+
         if (playerData.currentHealth <= 0)
         {
             Die();
@@ -72,6 +84,11 @@ public class PlayerHealth : MonoBehaviour
         GetComponent<Rigidbody2D>().simulated = false;
         transform.Rotate(0f, 0f, 45f);
         animator.SetTrigger("Death");
+
+        if (isOnScreen)
+        {
+            cameraShake?.Raise(shakeInfo);
+        }
     }
 
     public void OnPlayerDeathAnimationCallback()
@@ -79,11 +96,11 @@ public class PlayerHealth : MonoBehaviour
         sr.enabled = false;
     }
 
-
     private void OnDisable()
     {
         onDebugDeathEvent.OnEventRaised -= Die;
     }
+
     public void AppleCollected ()
     {
         AppleCollectedNumber++;
@@ -92,14 +109,25 @@ public class PlayerHealth : MonoBehaviour
             GainHeart();
         }
     }
+
     private void GainHeart()
     {
         playerData.currentHealth += 1;
         healthSystem.UpdateHearts();
         if (playerData.currentHealth > playerData.maxHealth)
         {
-            playerData.currentHealth = playerData.maxHealth; // Empêche d'avoir plus que la vie max
+            playerData.currentHealth = playerData.maxHealth;
         }
         Debug.Log("Vie restaurée ! Points de vie actuels : " + playerData.currentHealth);
+    }
+
+    private void OnBecameVisible()
+    {
+        isOnScreen = true;
+    }
+
+    private void OnBecameInvisible()
+    {
+        isOnScreen = false;
     }
 }

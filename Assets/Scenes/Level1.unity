@@ -134563,6 +134563,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 833827136536121491, guid: ccef063327cd49948a06da379687bc80, type: 3}
+      propertyPath: shakeInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 9ad9c4a8bb991b44a876790b573d0196, type: 2}
+    - target: {fileID: 833827136536121491, guid: ccef063327cd49948a06da379687bc80, type: 3}
+      propertyPath: cameraShake
+      value: 
+      objectReference: {fileID: 11400000, guid: 1b81751bea5122a49b0f5a48dcc10219, type: 2}
+    - target: {fileID: 833827136536121491, guid: ccef063327cd49948a06da379687bc80, type: 3}
       propertyPath: healthSystem
       value: 
       objectReference: {fileID: 1618003019}
@@ -134609,6 +134617,10 @@ PrefabInstance:
     - target: {fileID: 4123984860187566529, guid: ccef063327cd49948a06da379687bc80, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594879183755029587, guid: ccef063327cd49948a06da379687bc80, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9197100699650163901, guid: ccef063327cd49948a06da379687bc80, type: 3}
       propertyPath: m_Name
