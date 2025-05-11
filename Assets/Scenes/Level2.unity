@@ -54221,6 +54221,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 833827136536121491, guid: ccef063327cd49948a06da379687bc80, type: 3}
+      propertyPath: shakeInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 9ad9c4a8bb991b44a876790b573d0196, type: 2}
+    - target: {fileID: 833827136536121491, guid: ccef063327cd49948a06da379687bc80, type: 3}
+      propertyPath: cameraShake
+      value: 
+      objectReference: {fileID: 11400000, guid: 1b81751bea5122a49b0f5a48dcc10219, type: 2}
+    - target: {fileID: 833827136536121491, guid: ccef063327cd49948a06da379687bc80, type: 3}
       propertyPath: healthSystem
       value: 
       objectReference: {fileID: 2052937176}
