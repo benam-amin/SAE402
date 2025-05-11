@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("Broadcast event channels")]
     public VoidEventChannel onPlayerDeath;
-    
+
     public int AppleCollectedNumber = 0;
 
     public HealthSystem healthSystem;
@@ -65,7 +65,7 @@ public class PlayerHealth : MonoBehaviour
                 Die();
             }
 #endif
-    
+
     private void Die()
     {
         onPlayerDeath?.Raise();
@@ -79,7 +79,7 @@ public class PlayerHealth : MonoBehaviour
         sr.enabled = false;
     }
 
-    
+
     private void OnDisable()
     {
         onDebugDeathEvent.OnEventRaised -= Die;
@@ -88,7 +88,7 @@ public class PlayerHealth : MonoBehaviour
     {
         AppleCollectedNumber++;
         Debug.Log("Pommes collectées : " + AppleCollectedNumber);
-        if (AppleCollectedNumber % 50 == 0){
+        if (AppleCollectedNumber % 15 == 0){
             GainHeart();
         }
     }
